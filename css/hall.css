@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: url("../imgs/background.jpg");
+    background-size: cover;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+#hall {
+    color: wheat;
+    text-align: center;
+}
+
+
+.roomBord {
+    margin: 10px auto;
+    font-size: 20px;
+    width: 50%;
+    height: 80%;
+    border: 2px rgb(155, 45, 255) solid;
+    overflow: auto;
+}
+
+.roomBord li {
+    text-align: center;
+    list-style: none;
+    margin: 5px 5px;
+    color: rgb(72, 3, 255);
+}
+
+.roomBord li:hover {
+    background: rgba(147, 194, 234, 0.2);
+    border: wheat 1px;
+}
+
+.createBord {
+    position: absolute;
+    color: rgb(234, 255, 134);
+    border: 2px rgb(155, 45, 255) solid;
+    width: 20%;
+    height: 80px;
+    top: 100px;
+    left: 30px;
+}
+
+.createBord h3 {
+    margin:5px 0 0 5px;
+}
+
+
+#inputArea {
+    margin: 5px 5px;
+    width: 140px;
+    height: 20px;
+}
+
+#create {
+    width: 50px;
+    height: 20px;
+}
+
+#success{
+    color: rgb(142, 255, 56);
+}
+
+#fail{
+    color: rgb(255, 45, 33);
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: url("../imgs/background.jpg");
+    background-color: black;
+    background-size:cover;
+}
+
+.room{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+}
+
+
+#roomName{
+    color: wheat;
+    position: relative;
+    font-size: 40px;
+    left: 50%;
+}
+
+#userName{
+    color: wheat;
+    position: relative;
+    font-size: 20px;
+    right: 20px;
+}
+
+.userSection{
+    list-style: none;
+    width: 20%;
+    height: 60%;
+    border: 2px rgb(155, 45, 255) solid;
+    overflow: scroll;
+}
+
+.userSection #userList{
+    margin: 5px 5px;
+    color: rgb(234, 255, 134);
+}
+
+.roomSection{
+    margin-top: 10px;
+    list-style: none;
+    width: 20%;
+    height: 30%;
+    border: 2px rgb(155, 45, 255) solid;
+    overflow: scroll;
+}
+
+.roomSection #roomList{
+    margin: 5px 5px;
+    color: rgb(234, 255, 134);
+}
+
+#roomList li:hover{
+    background: rgba(147, 194, 234, 0.2);
+}
+.chatBord{
+    float: right;
+    margin-right: 10%;
+    width: 60%;
+    height: 70%;
+    border: 2px rgb(155, 45, 255) solid;
+    overflow: scroll;
+}
+
+.chatBord #chatArea{
+    margin: 5px 5px;
+    color: rgb(234, 255, 134);
+    width: auto;
+    height: auto;
+    list-style: none;
+}
+
+.inputSection{
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 8%;
+    border: 2px rgb(155, 45, 255) solid;
+    overflow: scroll;
+}
+
+.inputSection #inputArea{
+    width: 100%;
+    height: 80px;
+}
+
+.inputSection #typeIn{
+    margin-top: 20px;
+    margin-left: 20px;
+    outline-style: none ;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 13px 14px;
+    width: 500px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.inputSection #send{
+    position: relative;
+    float: right;
+    width: 100px;
+    height: 40px;
+    right: 20px;
+    top: 20px;
+}
+
+#btn-return {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+}

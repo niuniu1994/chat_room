@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: url("../imgs/background.jpg");
+    background-size:cover;
+}
+
+.header{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.content{
+    position: absolute;
+    left: 250px;
+    top: 300px;
+    font-size: 30px;
+    color: gray;
+    height: 60px;
+    width: 500px;
+}
+
+#status{
+    position: relative;
+    font-size: 20px;
+    left: 178px;
+}
+
+
+#success{
+    color: rgb(142, 255, 56);
+}
+
+#fail{
+    color: rgb(255, 45, 33);
+}
+
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+}
+
+button{
+    margin-left: 20px;
+    width: 60px;
+    height: 25px;
+}
