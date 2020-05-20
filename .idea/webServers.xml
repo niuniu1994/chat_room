@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d4ede194-4756-4041-911a-5c19b748a759" name="loaclhost" url="http://localhost:8888/efreimessenger/">
+        <fileTransfer port="0" mountedRoot="/Applications/MAMP/htdocs/efreimessenger" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
